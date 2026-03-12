@@ -2,6 +2,13 @@
 
 A lightweight image viewer written in Rust using the Egui library.
 
+
+## Screenshot
+
+![Welcome Screen](assets/wlc_screen.png)
+
+![Viewer](assets/viewer.png)
+
 ⚠️ **Status: Early Development**
 
 Current version: **v0.0.1**
