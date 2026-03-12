@@ -1,6 +1,6 @@
 # Lyt
 
-A lightweight image viewer written in Rust using the Iced GUI library.
+A lightweight image viewer written in Rust using the Egui library.
 
 ⚠️ **Status: Early Development**
 

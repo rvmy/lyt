@@ -28,14 +28,9 @@
           pkgs-unstable.rust-analyzer
           pkgs-unstable.rust-bin.stable.latest.default
           pkgs-unstable.wayland
-          #pkgs-unstable.xdg-desktop-portal
-          #pkgs-unstable.xdg-desktop-portal-gtk
-          # pkgs-unstable.pkgconfig
-          # pkgs-unstable.wayland-protocols
           pkgs-unstable.libxkbcommon
           pkgs-unstable.libX11
-          # pkgs-unstable.pkgconfig
-          # pkgs-unstable.xorg.libX11
+          pkgs-unstable.vulkan-loader
         ];
 
         shellHook = ''
@@ -45,6 +40,7 @@
               pkgs-unstable.libxkbcommon
               pkgs-unstable.libGL
               pkgs-unstable.wayland
+              pkgs-unstable.vulkan-loader
             ]
           }
           echo "🚀 Dev shell loaded"

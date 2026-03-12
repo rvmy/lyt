@@ -1,2 +1,4 @@
-pub mod image_meta;
-pub use image_meta::{ImageMeta, ImageMetaError};
+mod decoder;
+mod errors;
+pub mod image_handler;
+pub use image_handler::ImageHandler;
